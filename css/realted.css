@@ -18,7 +18,7 @@
 }
 
 .cell {
-    width: 25%;
+    width: 27%;
     overflow: hidden;
 }
 
@@ -26,4 +26,10 @@
     width: 90%;
     height: auto;
     object-fit: cover;
+}
+
+@media (min-width:0) and (max-width:480px) {
+    .cell {
+        width: 100%;
+    }
 }
