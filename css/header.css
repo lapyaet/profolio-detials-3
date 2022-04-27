@@ -70,6 +70,11 @@ label .check-btn {
         width: 90%;
     }
 
+    .header img {
+        height: 2rem;
+        width: auto;
+    }
+
     nav {
         display: none;
     }
@@ -96,6 +101,7 @@ label .check-btn {
     
     label {
         display: block;
+        margin-top: 0.3rem;
     }
 
     .mobile-nav li {
